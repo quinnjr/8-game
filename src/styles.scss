@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'tailwindcss' as tw;
+
+/* Custom styles */
+body {
+  @apply bg-gray-100;
+}
+
+.puzzle-piece {
+  @apply transition-all duration-200 cursor-pointer hover:brightness-105 select-none;
+}
+
+.puzzle-container {
+  @apply relative aspect-square;
+}
