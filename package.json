@@ -21,7 +21,7 @@
     "@angular/router": "^19.2.14",
     "@angular/ssr": "^19.2.14",
     "cors": "^2.8.5",
-    "express": "^4.22.1",
+    "express": "^4.22.2",
     "jimp": "1.6.0",
     "multer": "^2.0.1",
     "rxjs": "~7.8.2",
